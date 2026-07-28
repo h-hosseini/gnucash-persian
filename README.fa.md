@@ -5,7 +5,7 @@
 🌐 **زبان‌ها**
 
 - 🇮🇷 فارسی
-- 🇺🇸 English → README.md
+- 🇺🇸 English → [README.md](README.md)
 
 ---
 
