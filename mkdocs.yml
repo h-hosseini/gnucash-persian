@@ -1,0 +1,128 @@
+site_name: GnuCash Persian
+site_description: Community-driven Open Source Handbook for GnuCash
+site_author: GnuCash Persian Community
+site_url: https://h-hosseini.github.io/gnucash-persian/
+
+repo_name: h-hosseini/gnucash-persian
+repo_url: https://github.com/h-hosseini/gnucash-persian
+
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+
+  logo: assets/logo/logo.svg
+  favicon: assets/logo/favicon.svg
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+
+  palette:
+
+    - scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+
+  - admonition
+
+  - attr_list
+
+  - def_list
+
+  - footnotes
+
+  - md_in_html
+
+  - tables
+
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.snippets
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.emoji
+
+plugins:
+
+  - search
+
+nav:
+
+  - Home: index.md
+
+  - Documentation:
+
+      - Getting Started:
+          - docs/fa/getting-started/index.md
+
+      - Accounting:
+          - docs/fa/accounting/index.md
+
+      - Taxation:
+          - docs/fa/taxation/index.md
+
+      - Templates:
+          - docs/fa/templates/index.md
+
+      - Plugins:
+          - docs/fa/plugins/index.md
+
+      - FAQ:
+          - docs/fa/faq/index.md
+
+  - Community:
+
+      - Contributing: ../CONTRIBUTING.md
+
+      - Code of Conduct: ../CODE_OF_CONDUCT.md
+
+      - Security: ../SECURITY.md
+
+extra:
+
+  social:
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/h-hosseini/gnucash-persian
+
+copyright: |
+  Copyright © GnuCash Persian Community
